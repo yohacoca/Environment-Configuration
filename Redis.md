@@ -1,4 +1,4 @@
-# CentOS 7 安装Nginx以及使用
+# CentOS 7 安装Redis以及使用
 
 
 
