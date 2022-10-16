@@ -59,10 +59,8 @@ cat .ssh/id_rsa.pub 	#获取生成的公钥，添加到git上
 ```shell
 #git使用步骤	添加文件进入暂存区，然后提交到本地仓库，最后推送到远程仓库
 
-# 仓库初始化git选择默认的是main主分支，这里初始化的时候建议加上主分支名字
-git init -b <branch-name>
-# 例
-git init main
+# 仓库初始化git
+git init 
 
 #关联远程仓库
 git remote add origin git@server-name:path/repo-name.git
