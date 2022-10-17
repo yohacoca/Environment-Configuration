@@ -8,7 +8,7 @@
 
 ```shell
 wget https://nginx.org/download/nginx-1.21.2.tar.gz
-tar -xvf nginx-1.13.7.tar.gz
+tar -xvf nginx-1.21.2.tar.gz
 ```
 
 二、安装所需要的依赖
