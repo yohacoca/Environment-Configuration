@@ -42,7 +42,7 @@ make && make install
 ```shell
 
 git config --global user.name "Your Name"
-git config --global user.name "Your email"
+git config --global user.email "Your email"
 
 git config --global --list	#查看全局配置
 
