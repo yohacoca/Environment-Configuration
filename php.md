@@ -74,6 +74,6 @@ useradd php -s /sbin/nologin
 六、启动
 
 ```shell
-init.d.php-fpm start
+bash init.d.php-fpm start
 ```
 
