@@ -16,7 +16,13 @@ wget http://dev.mysql.com/get/mysql57-community-release-el7-10.noarch.rpm
 yum -y install mysql57-community-release-el7-10.noarch.rpm
 ```
 
-三、安装mysql服务器，会覆盖之前的mariadb
+三、获取密匙
+
+```shell
+rpm --import https://repo.mysql.com/RPM-GPG-KEY-mysql-2022
+```
+
+四、安装mysql服务器，会覆盖之前的mariadb
 
 ```shell
 yum -y install mysql-community-server
