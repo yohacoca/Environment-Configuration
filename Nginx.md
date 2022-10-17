@@ -26,7 +26,7 @@ yum -y install gcc zlib zlib-devel pcre-devel openssl openssl-devel
 四、编译以及安装
 
 ```
-make && install
+make && make install
 ```
 
 
