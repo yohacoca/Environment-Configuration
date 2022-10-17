@@ -40,10 +40,11 @@ make && make install
 一、先进行全局配置，设置用户和邮箱
 
 ```shell
-git config --global --list	#查看全局配置
 
 git config --global user.name "Your Name"
 git config --global user.name "Your email"
+
+git config --global --list	#查看全局配置
 
 ```
 
