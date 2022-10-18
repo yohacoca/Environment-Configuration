@@ -73,7 +73,7 @@ git add "Your Filename"
 git commit -m "message"
 
 #推送到远程仓库
-git push origin "branch-name"
+git push -u origin "branch-name"
 
 #克隆远程仓库
 git clone git@server-name:path/repo-name.git
