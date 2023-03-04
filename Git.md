@@ -52,7 +52,7 @@ git config --global --list	#查看全局配置
 
 ```shell
 ssh-keygen -t rsa -C "youremail@example.com"	#点击四下回车，生成公钥私钥文件
-cat .ssh/id_rsa.pub 	#获取生成的公钥，添加到git上
+cat ~/.ssh/id_rsa.pub 	#获取生成的公钥，添加到git上
 ```
 
 三、仓库基础设置
